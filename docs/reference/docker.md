@@ -65,6 +65,10 @@ docker rmi java:8
 ```bash
 docker rmi -f java:8
 ```
+- 删除所有没有引用的镜像
+```bash
+docker rmi `docker images | grep none | awk '{print $3}'`
+```
 - 强制删除所有镜像
 ```bash
 docker rmi -f $(docker images)
@@ -124,6 +128,10 @@ nsenter --target "$pid" --mount --uts --ipc --net --pid
 ```bash
 docker rm $ContainerName(或者$ContainerId)
 ```
+- 按名称删除容器
+```bash
+docker rm `docker ps -a | grep mall-* | awk '{print $1}'`
+```
 - 强制删除所有容器；
 ```bash
 docker rm -f $(docker ps -a -q)
@@ -143,6 +151,10 @@ docker logs $ContainerName(或者$ContainerId) -f
 docker inspect --format '{{ .NetworkSettings.IPAddress }}' $ContainerName(或者$ContainerId)
 ```
 ![](../images/refer_screen_59.png)
+### 修改容器的启动方式
+```bash
+docker container update --restart=always $ContainerName
+```
 ### 同步宿主机时间到容器
 ```bash
 docker cp /etc/localtime $ContainerName(或者$ContainerId):/etc/
@@ -158,6 +170,11 @@ docker stats $ContainerName(或者$ContainerId)
 docker stats -a
 ```
 ![](../images/refer_screen_61.png)
+### 查看Docker磁盘使用情况
+```bash
+docker system df
+```
+![](../images/refer_screen_108.png)
 ### 进入Docker容器内部的bash
 ```bash
 docker exec -it $ContainerName /bin/bash
