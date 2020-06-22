@@ -7,11 +7,12 @@
 </p>
 
 ## 简介
-mall学习教程，架构、业务、技术要点全方位解析。mall项目是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、RabbitMQ3.7.15、Redis3.2、Mongodb3.2、Mysql5.7等技术，采用Docker容器化部署。
+mall学习教程，架构、业务、技术要点全方位解析。mall项目（25k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、RabbitMQ3.7.15、Redis3.2、Mongodb3.2、Mysql5.7等技术，采用Docker容器化部署。
 
 ## 项目地址
 - 后台项目：[https://github.com/macrozheng/mall](https://github.com/macrozheng/mall)
 - 前端项目：[https://github.com/macrozheng/mall-admin-web](https://github.com/macrozheng/mall-admin-web)
+- 微服务项目：[https://github.com/macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm)
 
 ## 序章
 - [mall架构及功能概览](foreword/mall_foreword_01.md)
@@ -43,6 +44,8 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目是
 - [营销模块数据库表解析（一）](database/mall_sms_01.md)
 - [营销模块数据库表解析（二）](database/mall_sms_02.md)
 - [营销模块数据库表解析（三）](database/mall_sms_03.md)
+- [权限管理功能设计与优化](database/mall_permission.md)
+- [商品SKU功能设计与优化](technology/product_sku.md)
 
 ## 技术要点篇
 > mall中一些功能的技术要点解析
@@ -55,6 +58,11 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目是
 - [仅需四步，整合SpringSecurity+JWT实现登录认证！](technology/springsecurity_use.md)
 - [前后端分离项目，如何优雅实现文件存储！](technology/minio_use.md)
 - [前后端分离项目，引入Spring Cloud Gateway遇到的一个问题！](technology/gateway_cors.md)
+- [手把手教你搞定权限管理，结合Spring Security实现接口的动态权限控制！](technology/permission_back.md)
+- [手把手教你搞定权限管理，结合Vue实现菜单的动态权限控制！](technology/permission_front.md)
+- [SpringBoot中处理校验逻辑的两种方式，真的很机智！](technology/springboot_validator.md)
+- [使用Redis+AOP优化权限管理功能，这波操作贼爽！](technology/redis_permission.md)
+- [Elasticsearch项目实战，商品搜索功能设计与实现！](technology/product_search.md)
 
 ## 部署篇
 > mall开发及生产环境的搭建
@@ -109,6 +117,10 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目是
 - [Github标星19K+Star，10分钟自建对象存储服务！](reference/minio.md)
 - [MySql主从复制，从原理到实践！](reference/mysql_master_slave.md)
 - [你还在代码里做读写分离么，试试这个中间件吧！](reference/gaea.md)
+- [Spring Data Redis 最佳实践！](reference/spring_data_redis.md)
+- [Docker环境下秒建Redis集群，连SpringBoot也整上了！](reference/redis_cluster.md)
+- [Elasticsearch快速入门，掌握这些刚刚好！](reference/elasticsearch_start.md)
+- [MongoDB快速入门，掌握这些刚刚好！](reference/mongodb_start.md)
 
 ## 工具篇
 > 一些常用开发工具的使用
@@ -121,6 +133,8 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目是
 - [虚拟机安装及使用Linux，看这一篇就够了！](reference/linux_install.md)
 - [推荐一个项目管理工具，落地基于Scrum的敏捷开发！](reference/zentao.md)
 - [IDEA中创建和启动SpringBoot应用的正确姿势](reference/idea_springboot.md)
+- [盘点下我用的顺手的那些工具！](reference/my_tools.md)
+- [我用起来顺手的数据库设计工具，这次推荐给大家！](reference/navicat_designer.md)
 
 ## 公众号
 
