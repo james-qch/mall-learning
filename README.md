@@ -8,7 +8,7 @@
 
 ## 简介
 mall学习教程，架构、业务、技术要点全方位解析。mall项目（25k+star）是一套电商系统，使用现阶段主流技术实现。
-涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、RabbitMQ3.7.15、Redis3.2、Mongodb3.2、Mysql5.7等技术，采用Docker容器化部署。
+涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、RabbitMQ3.7.15、Redis5.0、Mongodb4.2.5、Mysql5.7等技术，采用Docker容器化部署。
 
 ## 项目地址
 - 后台项目：[https://github.com/macrozheng/mall](https://github.com/macrozheng/mall)
@@ -141,6 +141,7 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [IDEA中创建和启动SpringBoot应用的正确姿势](https://juejin.im/post/5d8b69366fb9a04e3348b06c)
 - [盘点下我用的顺手的那些工具！](https://juejin.im/post/5e5f99c251882549281bfb09)
 - [我用起来顺手的数据库设计工具，这次推荐给大家！](https://juejin.im/post/5ea6d2725188256da20e60ee)
+- [我常用的IDEA插件大公开，个个是精品！](https://juejin.im/post/5eba9a5bf265da7bca50010c)
 
 
 ## 公众号

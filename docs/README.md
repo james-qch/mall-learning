@@ -7,7 +7,7 @@
 </p>
 
 ## 简介
-mall学习教程，架构、业务、技术要点全方位解析。mall项目（25k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、RabbitMQ3.7.15、Redis3.2、Mongodb3.2、Mysql5.7等技术，采用Docker容器化部署。
+mall学习教程，架构、业务、技术要点全方位解析。mall项目（25k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、RabbitMQ3.7.15、Redis5.0、Mongodb4.2.5、Mysql5.7等技术，采用Docker容器化部署。
 
 ## 项目地址
 - 后台项目：[https://github.com/macrozheng/mall](https://github.com/macrozheng/mall)
@@ -63,6 +63,7 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [SpringBoot中处理校验逻辑的两种方式，真的很机智！](technology/springboot_validator.md)
 - [使用Redis+AOP优化权限管理功能，这波操作贼爽！](technology/redis_permission.md)
 - [Elasticsearch项目实战，商品搜索功能设计与实现！](technology/product_search.md)
+- [我常用的自动化部署技巧，贼好用，推荐给大家！](technology/springboot_auto_deploy.md)
 
 ## 部署篇
 > mall开发及生产环境的搭建
@@ -135,6 +136,7 @@ mall学习教程，架构、业务、技术要点全方位解析。mall项目（
 - [IDEA中创建和启动SpringBoot应用的正确姿势](reference/idea_springboot.md)
 - [盘点下我用的顺手的那些工具！](reference/my_tools.md)
 - [我用起来顺手的数据库设计工具，这次推荐给大家！](reference/navicat_designer.md)
+- [我常用的IDEA插件大公开，个个是精品！](reference/idea_plugins.md)
 
 ## 公众号
 
